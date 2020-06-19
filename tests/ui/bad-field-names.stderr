@@ -1,0 +1,8 @@
+error: BoolEnum can only be used on enums with two variants named No and Yes, or False and True.
+
+  = help: try `enum FieldNames { No, Yes }`
+
+ --> $DIR/bad-field-names.rs:4:10
+  |
+4 | pub enum FieldNames {
+  |          ^^^^^^^^^^

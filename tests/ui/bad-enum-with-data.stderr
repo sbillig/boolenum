@@ -1,0 +1,8 @@
+error: BoolEnum can only be used on enums with unit-like variants
+
+  = help: try `enum EnumWithData { No, Yes }`
+
+ --> $DIR/bad-enum-with-data.rs:5:5
+  |
+5 |     Yes(String),
+  |     ^^^

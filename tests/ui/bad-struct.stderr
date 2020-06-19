@@ -1,0 +1,5 @@
+error: BoolEnum can only be used on enums.
+ --> $DIR/bad-struct.rs:4:8
+  |
+4 | struct StructInsteadOfEnum {
+  |        ^^^^^^^^^^^^^^^^^^^
