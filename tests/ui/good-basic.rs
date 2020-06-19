@@ -1,6 +1,6 @@
 use boolenum::BoolEnum;
 
-#[derive(BoolEnum, Copy, Clone, Debug, PartialEq)]
+#[derive(BoolEnum, Debug, PartialEq)]
 pub enum Good {
     No,
     Yes,

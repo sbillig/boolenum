@@ -3,10 +3,16 @@ name = "boolenum"
 version = "0.1.0"
 authors = ["sean billig <sean.billig@gmail.com>"]
 edition = "2018"
+description = "Derive From<bool> and Into<bool> for your boolean enums"
+repository = "https://github.com/sbillig/boolenum"
+documentation = "https://docs.rs/boolenum/"
+readme = "README.md"
+keywords = ["derive", "boolean", "enum", "proc_macro"]
 license = "MIT OR Apache-2.0"
 
 [lib]
 proc-macro = true
+path = "src/lib.rs" # required by cargo-readme
 
 [dependencies]
 syn = "1.0.31"
@@ -15,3 +21,4 @@ proc-macro-error = "1.0.2"
 
 [dev-dependencies]
 trybuild = "1.0.30"
+structopt = "0.3.15"
